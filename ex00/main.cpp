@@ -10,11 +10,10 @@ int main() {
     a.beRepaired(5);
 
     for (int i = 0; i < 12; i++)
-        a.attack("Dummy");   // drains energy
+        a.attack("Dummy");  
 
-    a.beRepaired(2);        // should fail (no energy)
-    a.takeDamage(100);      // kills
-    a.attack("Ghost");      // should fail
-
+    a.beRepaired(2);        
+    a.takeDamage(100);      
+    a.attack("Ghost");      
     return 0;
 }
