@@ -3,9 +3,9 @@
 DiamondTrap::DiamondTrap()
     : ClapTrap("Default_clap_name"), name("Default")
 {
-    hitPoints = 100;      // FragTrap
-    energyPoints = 50;    // ScavTrap
-    attackDamage = 30;    // FragTrap
+    hitPoints = 100;    
+    energyPoints = 50;   
+    attackDamage = 30;    
 
     std::cout << "DiamondTrap " << name << " constructed!\n";
 }
